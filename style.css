@@ -419,8 +419,8 @@ body {
 
 
 .icon {
-  height: 40px !important;
-  width: 40px;
+  height: 50px !important;
+  width: 50px;
   display: block;
   border-radius: 25%;
   margin: 13px 10px;
@@ -581,6 +581,9 @@ body {
     width: 270px;
     height: 300px;
     border-radius: 50%;
+  }
+  .logo-upper-scroll {
+    height: 65px !important;
   }
   .accordion-item > .title {
     font-size: 15px;
