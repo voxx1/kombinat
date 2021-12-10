@@ -23,6 +23,71 @@ body {
   height: 100px !important;
 }
 
+.sklep-btn {
+  background:   #22442f !important;
+  color: white !important;
+  border: 1px solid white !important;
+ 
+}
+
+.button-block {
+   display: flex;
+  justify-content: center;
+}
+
+.box {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  height: 2px;
+  margin: 0 auto 0 auto;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.box:hover {
+  -webkit-animation-name: bounce-5;
+          animation-name: bounce-5;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+
+
+@keyframes bounce-5 {
+  0% {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateX(0);
+            transform: scale(1.1, 0.9) translateX(0);
+  }
+  30% {
+    -webkit-transform: scale(0.9, 1.1) translateX(-10px);
+            transform: scale(0.9, 1.1) translateX(-10px);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateX(-4px);
+            transform: scale(1, 1) translateX(-4px);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+}
+
 .author {
   text-transform: uppercase;
   line-height: 1rem;
@@ -598,7 +663,7 @@ body {
     width: 90%;
   }
   .logo-upper {
-    height: 65px;
+    height: 55px !important;
     width: 90%;
   }
   .carousel-item img {
@@ -630,6 +695,13 @@ body {
   .wrapper {
     margin: 0 auto;
     width: 360px;
+  }
+}
+
+@media (max-width: 760px) {
+  .logo-upper {
+    height: 75px;
+    width: 90%;
   }
 }
 
