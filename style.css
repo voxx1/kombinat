@@ -610,8 +610,8 @@ body {
     width: 150px;
   }
   .fixed-top {
-    position: static !important;
-  }
+    background: white;
+    }
   .dowoz {
     margin-top: 40px !important;
   }
