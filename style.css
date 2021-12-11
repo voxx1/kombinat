@@ -22,7 +22,10 @@ body {
 .logo-upper-scroll {
   height: 100px !important;
 }
-
+.filler {
+  height: 60px;
+  
+}
 .sklep-btn {
   background:   #22442f !important;
   color: white !important;
@@ -717,6 +720,9 @@ body {
 @media (min-width: 992px) {
   .logo-top {
     display: block;
+  }
+  .filler {
+    height: 120px;
   }
 }
 
