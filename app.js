@@ -47,6 +47,8 @@ $( document ).ready(function() {
 });
 
 
-   
-
+function myFunction() {
+    let element = document.getElementById("navbarSupportedContent");
+    element.classList.remove("show");
+ }
    
