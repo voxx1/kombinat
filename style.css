@@ -670,10 +670,10 @@ body {
     width: 90%;
   }
   .carousel-item img {
-    height: 70vh !important;
+    height: 80vh !important;
   }
   .main-gallery {
-    height: 70vh !important;
+    height: 80vh !important;
     margin-top: 20px;
   }
   .fixed-top {
