@@ -11,7 +11,7 @@ body {
 }
 
 .main-gallery {
-  height: 100vh;
+  height: 110vh;
 }
 
 .logo-upper {
@@ -131,7 +131,7 @@ body {
 
 .carousel-item img {
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
 }
 
 .carousel-caption {
@@ -154,7 +154,29 @@ body {
   transition: ease-in-out 0.2s;
 }
 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
 
 .grid-section {
   display: flex;
@@ -197,6 +219,10 @@ body {
   transition: transform 0.3s ease-in-out;
   counter-increment: item-counter;
 }
+
+.g-item:hover .overlay {
+  opacity: 0.65;
+}
 .g-item:nth-of-type(1) {
   background-image: url('images/galeria1.jpg');
 }
@@ -231,7 +257,7 @@ body {
   background-image: url('images/galeria2.jpg');
 }
 .g-item:nth-of-type(12) {
-  background-image: url('images/img-main.jpg');
+  background-image: url('images/jedzenie3.jpg');
 }
 .g-item:nth-of-type(13) {
   background-image: url('images/DSC08325.jpg');
