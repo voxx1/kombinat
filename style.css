@@ -38,6 +38,8 @@ body {
   justify-content: center;
 }
 
+
+
 .box {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -647,6 +649,11 @@ body {
   .carousel-item img {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .media {
+    
+      display: flex;
+      flex-direction: column-reverse;
   }
   .hero-title {
     width: 100%;
