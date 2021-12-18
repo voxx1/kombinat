@@ -190,7 +190,6 @@ blockquote {
 }
 
 .quete-text {
-  font-size: 15px;
   color: black;
   text-decoration: underline #1d530b;
 }
@@ -386,7 +385,7 @@ blockquote {
           align-items: baseline;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: center;
   margin-left: -100px;
 }
 
@@ -407,6 +406,10 @@ blockquote {
   width: 100%;
   max-height: 700px;
 }
+.media-img {
+  width: 70%;
+  max-height: 700px;
+}
 .hero-title {
   font-size: 35px;
   width: 50%;
@@ -417,7 +420,11 @@ blockquote {
   font-size: 13px;
   padding: 10px;
 }
-
+.media-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .time {
   font-size: 20px;
   margin-top: 40px;
