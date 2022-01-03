@@ -26,6 +26,19 @@ body {
   height: 60px;
   
 }
+.onas-img img {
+  width: 100%;
+  height: auto;
+}
+.blog-more {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.blog-more:hover {
+  color: #22442f;
+  cursor: pointer;
+}
 .sklep-btn {
   background:   #22442f !important;
   color: white !important;
