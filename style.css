@@ -286,11 +286,11 @@ blockquote:after {
 }
 
 .g-item:nth-of-type(2) {
-    background-image: url('images/_DSC8007.webp');
+    background-image: url('images/_DSC8007.jpg');
 }
 
 .g-item:nth-of-type(3) {
-    background-image: url('images/_DSC9195-1.webp');
+    background-image: url('images/_DSC9195-1.jpg');
 }
 
 .g-item:nth-of-type(4) {
@@ -306,15 +306,15 @@ blockquote:after {
 }
 
 .g-item:nth-of-type(7) {
-    background-image: url('images/_DSC1680.webp');
+    background-image: url('images/_DSC1680.jpg');
 }
 
 .g-item:nth-of-type(8) {
-    background-image: url('images/_DSC7911.webp');
+    background-image: url('images/_DSC7911.jpg');
 }
 
 .g-item:nth-of-type(9) {
-    background-image: url('images/_DSC8007.webp');
+    background-image: url('images/_DSC8007.jpg');
 }
 
 .g-item:nth-of-type(10) {
@@ -338,19 +338,7 @@ blockquote:after {
 }
 
 .g-item:nth-of-type(15) {
-    background-image: url('images/_DSC9195-1.webp');
-}
-
-.g-item:nth-of-type(16) {
-    background-image: url('images/jedzenie2.jpg');
-}
-
-.g-item:nth-of-type(17) {
-    background-image: url('images/jedzenie5.jpg');
-}
-
-.g-item:nth-of-type(18) {
-    background-image: url('images/jedzenie3.jpg');
+    background-image: url('images/_DSC9195-1.jpg');
 }
 
 .g-item:after {
